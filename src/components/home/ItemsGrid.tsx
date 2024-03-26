@@ -9,7 +9,7 @@ const items: ItemType[] = [
     name: 'Living Room'
   },
   {
-    id: 1,
+    id: 2,
     status: false,
     name: 'Daan Room'
   }

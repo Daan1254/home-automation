@@ -17,14 +17,14 @@ const Header: FC<Props> = ({ backButton = false }) => {
             onClick={() => router.push('/')}
             className='text-gray-500'
           >
-            <ArrowBack/>
+            <ArrowBack className="w-6 h-6 dark:text-white"/>
           </button>
         )}
         <div>
           <div className='flex flex-row gap-2 items-center'>
-            <h1 className='text-xl '>Daan&#x27;s Home</h1>
+            <h1 className='text-xl'>Daan&#x27;s Home</h1>
           </div>
-          <p className='text-gray-700'>Smart Home Automation</p>
+          <p className='text-gray-700 dark:text-gray-200'>Smart Home Automation</p>
         </div>
       </div>
       <ThemeSwitcher/>
